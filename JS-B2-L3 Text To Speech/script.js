@@ -9,7 +9,7 @@ myButton.addEventListener('click', function(){
 })
 
 myReset.addEventListener('click', function(){
-    /* hier komt jouw code */
+    location.reload()
 })
 
 function main(){
@@ -49,12 +49,10 @@ function sayItLoud (textString) {
   message.rate = 1; // range between 0.1 (lowest) and 10 (highest) 
   window.speechSynthesis.speak(message);
 }
-
-
-
-const onderwerp = ["she", "Ed", "Rosmerta"];
-const werkwoord = ["walks", "learns", "drinks"];
-const restwoord = ["hard", "at school", "coffee"];
     
-let plaatjes = ["https://cdn.pixabay.com/photo/2018/07/09/17/44/baby-elephant-3526681__340.png", "https://www.how-to-draw-funny-cartoons.com/images/cartoon-baby-007.jpg", "https://thumbs.dreamstime.com/b/smiling-heart-cartoon-open-arms-nice-image-all-projects-love-representing-version-its-suggest-idea-40930153.jpg", "https://observer.com/wp-content/uploads/sites/2/2020/05/yoda-art-observer.jpg?quality=80"]
-let arrayLength = onderwerp.length;
+    const onderwerp = ["she", "he", "gael"];
+    const werkwoord = ["Reads", "learns", "drinks"];
+    const restwoord = ["hard", "at Home", "Tea"];
+        
+    let plaatjes = ["https://www.fredfoundation.org/app/uploads/2018/03/Albatross-close-up-500x500.jpg", "https://vignette.wikia.nocookie.net/thebatmanfanon/images/2/2f/Batman_rect-500x500.jpg/revision/latest?cb=20120408073139", "https://www.profil4.com/en/img/mains/main-influent_500x500.png", "https://uploads.scratch.mit.edu/users/avatars/44114741.png"]
+    let arrayLength = onderwerp.length;
