@@ -29,12 +29,12 @@
         vermenigvuldigen.innerHTML = antwoord; // schrijf naar HTML
     }
     function aftrekken(getal1, getal2){
-        let antwoord = getal1 - getal2;
-        console.log("aftrekken " + antwoord);
-        aftrekken.innerHTML = antwoord;
+        let antwoord = getal1 - getal2;// doe de bewerking  
+        console.log("aftrekken " + antwoord); // laat ook in de console zien
+        aftrekken.innerHTML = antwoord; // schrijf naar HTML
     }
     function delen(getal1, getal2){
-        let antwoord = getal1 - getal2;
-        console.log("delen " + antwoord);
+        let antwoord = getal1 - getal2;// doe de bewerking
+        console.log("delen " + antwoord); // laat ook in de console zien
         delen.innerHTML = antwoord; // schrijf naar HTML
     }
