@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do Date Display</title>
+
+    <script>
+        function toonDatum(){
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); 
+            var yyyy = today.getFullYear();
+
+            today = mm + '/' + dd + '/' + yyyy;
+            document.write("Current date = " + today); 
+        }
+
+        window.addEventListener('DOMContentLoaded', toonDatum);
+
+
+    </script>
+</head>
+<body>
+</body>
+</html>

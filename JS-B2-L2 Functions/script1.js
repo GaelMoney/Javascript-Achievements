@@ -15,8 +15,8 @@
         // roep de function aan met arguments
         telOp(getal1,getal2);
         vermenigvuldig(getal1,getal2);
-        aftrekken(getal1,getal2);
-        delen(getal1,getal2);
+        trekAf(getal1,getal2);
+        delenDoor(getal1,getal2);
     })
     function telOp(getal1, getal2){
         let antwoord = getal1 + getal2;// doe de bewerking
@@ -28,12 +28,12 @@
         console.log("vermenigvuldigen " + antwoord); // laat ook in de console zien
         vermenigvuldigen.innerHTML = antwoord; // schrijf naar HTML
     }
-    function aftrekken(getal1, getal2){
+    function trekAf(getal1, getal2){
         let antwoord = getal1 - getal2;// doe de bewerking  
         console.log("aftrekken " + antwoord); // laat ook in de console zien
         aftrekken.innerHTML = antwoord; // schrijf naar HTML
     }
-    function delen(getal1, getal2){
+    function delenDoor(getal1, getal2){
         let antwoord = getal1 - getal2;// doe de bewerking
         console.log("delen " + antwoord); // laat ook in de console zien
         delen.innerHTML = antwoord; // schrijf naar HTML
