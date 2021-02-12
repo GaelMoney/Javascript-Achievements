@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <title>Do Date Display</title>
 
-    <script>
+    <script> 
         function toonDatum(){
             var today = new Date();
             var dd = String(today.getDate()).padStart(2, '0');
             var mm = String(today.getMonth() + 1).padStart(2, '0'); 
             var yyyy = today.getFullYear();
 
-            today = mm + '/' + dd + '/' + yyyy;
-            document.write("Current date = " + today); 
+    // de div met het id day ophalen 
+            const dag = document.getElementById('day');
+            const jaar = document.getElementById('year');
+            const maand = document.getElementById('month');
+            dag.innerHTML = dd;
+            jaar.innerHTML = yyyy;
+            maand.innerHTML = mm;
+           
         }
 
         window.addEventListener('DOMContentLoaded', toonDatum);
@@ -21,5 +27,9 @@
     </script>
 </head>
 <body>
+    <!-- wat je op het scherm ziet -->
+    <div id="day"></div>
+    <div id="month"></div>
+    <div id="year"></div>
 </body>
 </html>
